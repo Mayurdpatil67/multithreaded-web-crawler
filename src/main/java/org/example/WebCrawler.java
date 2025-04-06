@@ -44,3 +44,4 @@ public class WebCrawler {
         executorService.submit(new CrawlerTask(urlStore, urlFetcher, maxDepth, currentDepth, phaser));
     }
 }
+
